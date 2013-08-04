@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">Birddroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bird_droid">BirdDroid</string>
+    <string name="Title">Title</string>
+    <string name="Artist">Artist</string>
+    <string name="Album">Album</string>
+    <string name="title_activity_preferences">Settings</string>
+    <string name="ip">IP :</string>
+    <string name="save">Save</string>
+    <string name="port">Port</string>
+
+</resources>

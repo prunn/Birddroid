@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".BirdDroid" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#000" >
+
+        <ImageButton
+            android:id="@+id/previous"
+            android:layout_width="82dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.48"
+            android:contentDescription="@+id/previous"
+            android:src="@android:drawable/ic_media_previous" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="81dp"
+            android:layout_height="61dp"
+            android:layout_weight="0.56"
+            android:contentDescription="@+id/play"
+            android:src="@android:drawable/ic_media_play" />
+
+        <ImageButton
+            android:id="@+id/next"
+            android:layout_width="83dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.46"
+            android:contentDescription="@+id/next"
+            android:src="@android:drawable/ic_media_next" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LayoutNowPlaying"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@+id/LayoutNowPlaying"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@+id/title"
+            android:gravity="center_horizontal"
+            android:text="@string/Title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@+id/artist"
+            android:gravity="center_horizontal"
+            android:text="@string/Artist"
+            android:textSize="33sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/album"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@+id/album"
+            android:gravity="center_horizontal"
+            android:text="@string/Album"
+            android:textSize="30sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+    
+</RelativeLayout>

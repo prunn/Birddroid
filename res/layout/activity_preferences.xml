@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01" >
+
+            <TextView
+                android:id="@+id/ip"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:text="@string/ip"
+                android:textColor="#EEE"
+                android:textSize="28sp"
+                tools:context=".Preferences" />
+
+            <EditText
+                android:id="@+id/editIP"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:background="#EEE"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:text=""
+                android:textColor="#222"
+                android:textSize="28sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/TableRow02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01" >
+
+            <TextView
+                android:id="@+id/TextPort"
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:text="@string/port"
+                android:textColor="#EEE"
+                android:textSize="28sp"
+                tools:context=".Preferences" />
+
+            <EditText
+                android:id="@+id/editPort"
+                android:layout_width="216dp"
+                android:layout_height="wrap_content"
+                android:background="#EEE"
+                android:ems="10"
+                android:inputType="text"
+                android:paddingLeft="5dp"
+                android:text=""
+                android:textColor="#222"
+                android:textSize="28sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.22" >
+
+            <TableRow
+                android:id="@+id/TableRow01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.14" >
+            </TableRow>
+
+            
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="305dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="43dp"
+            android:layout_marginRight="64dp"
+            android:background="#DDD"
+            android:text="@string/save"
+            android:textColor="#222"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
