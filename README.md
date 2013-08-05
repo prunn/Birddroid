@@ -1,7 +1,8 @@
 Birddroid
 =========
 
-Songbird / Nightintale android remote control 
+Songbird / Nightintale remote control for Android
+-
 Using modified plugin get-control by Antoine Turmel (GeekShadow),Tim Cuthbertson (gfxmonk) to receive commands
 
 Author: Prunn
